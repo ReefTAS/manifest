@@ -12,6 +12,7 @@
     <default revision="krogoth"/>
 
     <!-- project dirs -->
+    <project path="build" name="ReefTAS/build" remote="github" revision="master" />
 
     <!-- poky dirs -->
     <project path="platform/yocto/poky" name="poky.git" remote="poky"/>
