@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <remote  name="poky"
+             fetch="git://git.yoctoproject.org" />
+
+    <remote  name="github"
+             fetch="https://github.com" />
+
+    <remote  name="openembedded"
+             fetch="git://git.openembedded.org" />
+
+    <default revision="krogoth"/>
+
+    <!-- project dirs -->
+
+    <!-- poky dirs -->
+    <project path="platform/yocto/poky" name="poky.git" remote="poky"/>
+    <project path="platform/yocto/meta-openembedded" name="meta-openembedded.git" remote="openembedded" />
+    <project path="platform/yocto/meta-qt5" name="meta-qt5/meta-qt5.git" remote="github"/>
+
+
+    <!-- board dirs -->
+    <!-- raspberry-pi dirs -->
+    <project path="platform/yocto/meta-raspberrypi" name="meta-raspberrypi" remote="poky"/>
+    <project path="platform/yocto/meta-rpi" name="jumpnow/meta-rpi" remote="github"/>
+</manifest>
