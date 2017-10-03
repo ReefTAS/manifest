@@ -1,16 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-    <remote  name="poky"
-             fetch="git://git.yoctoproject.org" />
-
-    <remote  name="github"
-             fetch="https://github.com" />
-
-    <remote  name="openembedded"
-             fetch="git://git.openembedded.org" />
-
-    <default revision="pyro"/>
-
     <!-- project dirs -->
     <project path="build" name="ReefTAS/build" remote="github" revision="master" />
 
@@ -21,11 +10,6 @@
 
     <!-- go dirs -->
     <project path="platform/yocto/meta-go" name="mem/oe-meta-go.git" remote="github" revision="master" />
-
-    <!-- board dirs -->
-    <!-- raspberry-pi dirs -->
-    <project path="platform/yocto/meta-raspberrypi" name="meta-raspberrypi" remote="poky"/>
-    <project path="platform/yocto/meta-rpi" name="jumpnow/meta-rpi" remote="github"/>
 
     <!-- nodejs dirs -->
     <project path="platform/yocto/meta-nodejs" name="imyller/meta-nodejs" remote="github" revision="master"/>
