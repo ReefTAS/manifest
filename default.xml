@@ -6,7 +6,6 @@
     <!-- poky dirs -->
     <project path="platform/yocto/poky" name="poky.git" remote="poky"/>
     <project path="platform/yocto/meta-openembedded" name="meta-openembedded.git" remote="openembedded" />
-    <project path="platform/yocto/meta-qt5" name="meta-qt5/meta-qt5.git" remote="github"/>
 
     <!-- go dirs -->
     <project path="platform/yocto/meta-go" name="mem/oe-meta-go.git" remote="github" revision="master" />

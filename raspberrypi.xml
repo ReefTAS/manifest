@@ -16,7 +16,6 @@
     <!-- board dirs -->
     <!-- raspberry-pi dirs -->
     <project path="platform/yocto/meta-raspberrypi" name="meta-raspberrypi" remote="poky"/>
-    <project path="platform/yocto/meta-rpi" name="jumpnow/meta-rpi" remote="github"/>
 
     <!-- reeftas raspberrypi layer -->
     <project path="platform/yocto/meta-reeftas-raspberrypi" name="ReefTAS/meta-reeftas-raspberrypi" remote="github" revision="master" />
