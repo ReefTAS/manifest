@@ -16,6 +16,4 @@
 
     <!-- reeftas and reeftas-qemu -->
     <project path="platform/yocto/meta-reeftas" name="ReefTAS/meta-reeftas" remote="github" revision="master" />
-    <project path="platform/yocto/meta-reeftas-qemu" name="ReefTAS/meta-reeftas-qemu" remote="github" revision="master" />
-
 </manifest>
