@@ -32,5 +32,6 @@
     <project path="platform/yocto/meta-reeftas-qemu" name="ReefTAS/meta-reeftas-qemu" remote="github" revision="master" />
 
     <!-- reeftas raspberrypi layer -->
+    <project path="platform/yocto/meta-raspberrypi" name="meta-raspberrypi" remote="poky"/> 
     <project path="platform/yocto/meta-reeftas-raspberrypi" name="ReefTAS/meta-reeftas-raspberrypi" remote="github" revision="master" />
 </manifest>
