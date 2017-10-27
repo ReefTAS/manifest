@@ -1,5 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+    <remote  name="poky"
+             fetch="git://git.yoctoproject.org" />
+
+    <remote  name="github"
+             fetch="https://github.com" />
+
+    <remote  name="openembedded"
+             fetch="git://git.openembedded.org" />
+
+    <default revision="pyro"/>
+
+    <include name="default.xml" />
+
     <!-- project dirs -->
     <project path="build" name="ReefTAS/build" remote="github" revision="master" />
 
@@ -16,4 +29,10 @@
 
     <!-- reeftas and reeftas-qemu -->
     <project path="platform/yocto/meta-reeftas" name="ReefTAS/meta-reeftas" remote="github" revision="master" />
+
+    <!-- qemu board dirs -->
+    <project path="platform/yocto/meta-reeftas-qemu" name="ReefTAS/meta-reeftas-qemu" remote="github" revision="master" />
+
+    <!-- reeftas raspberrypi layer -->
+    <project path="platform/yocto/meta-reeftas-raspberrypi" name="ReefTAS/meta-reeftas-raspberrypi" remote="github" revision="master" />
 </manifest>
