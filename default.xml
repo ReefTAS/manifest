@@ -11,8 +11,6 @@
 
     <default revision="pyro"/>
 
-    <include name="default.xml" />
-
     <!-- project dirs -->
     <project path="build" name="ReefTAS/build" remote="github" revision="master" />
 
