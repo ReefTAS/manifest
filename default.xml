@@ -23,7 +23,7 @@
 
     <!-- nodejs dirs -->
     <project path="platform/yocto/meta-nodejs" name="imyller/meta-nodejs" remote="github" revision="master"/>
-    <project path="platform/yocto/meta-nodejs-contrib" name="imyller/meta-nodejs-contrib" remote="github" revision="master"/>
+    <project path="platform/yocto/meta-nodejs-contrib" name="ReefTAS/meta-nodejs-contrib" remote="github" revision="master"/>
 
     <!-- reeftas and reeftas-qemu -->
     <project path="platform/yocto/meta-reeftas" name="ReefTAS/meta-reeftas" remote="github" revision="master" />
